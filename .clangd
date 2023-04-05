@@ -1,0 +1,13 @@
+Diagnostics:
+  Suppress: ["unknown_type", "sign-conversion", "shadow",
+ "shorten-64-to-32", "missing-field-initializers", "sign-compare", "-Wreorder-ctor",
+ "-Wold-style-cast", "-Wunused-private-field"]
+  # ClangTidy:
+  #   Add: modernize*
+  #   Remove: [modernize-use-trailing-return-type, modernize-use-using]
+
+InlayHints:
+  Designators: Yes
+  Enabled: No
+  ParameterNames: Yes
+  DeducedTypes: Yes

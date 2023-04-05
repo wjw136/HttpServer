@@ -1,0 +1,17 @@
+Language: Cpp
+ 
+BasedOnStyle: LLVM
+# 允许重新排版注释
+ReflowComments: false
+
+# 对齐连续的尾随的注释
+AlignTrailingComments: false
+
+# tab宽度
+TabWidth: 4
+
+# 使用tab字符: Never, ForIndentation, ForContinuationAndIndentation, Always
+UseTab: Always
+
+# 缩进
+IndentWidth: 4
